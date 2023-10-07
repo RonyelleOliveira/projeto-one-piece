@@ -1,0 +1,150 @@
+@media (max-width: 769px) {
+    main::after {
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    }
+
+    main .personagem .imagem {
+        height: 85%;
+    }
+
+    main .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    main .conteudo .nome-personagem {
+        font-size: 40px;
+    }
+
+    main .conteudo .descricao {
+        max-width: 500px;
+        font-size: 20px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        bottom: 18px;
+        background-color: transparent;   
+    }
+
+    .botoes .botao img {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 428px) {
+    main .personagem .imagem {
+        height: auto;
+    }
+
+    main .conteudo .logo {
+        width: 200px;
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    main .conteudo {
+        top: -15%;
+    }
+    main .conteudo .descricao{
+        max-width: 500px;
+        font-size: 22px;
+        margin-bottom: 12%;
+    }
+
+    main .conteudo .nome-personagem {
+        font-size: 40px;
+    }
+
+    .botoes {
+        padding: 10px;
+        top: -20%;
+        background-color: transparent;   
+    }
+
+    .botoes .botao img {
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 360px) {
+    main .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -15%;
+        max-width: 100vw;
+        padding: 20px;
+    }
+
+    main .conteudo .nome-personagem {
+        font-size: 35px;
+    }
+
+    main .conteudo .descricao {
+        max-width: 500px;
+        font-size: 18px;
+       
+    }
+
+    main .conteudo .logo {
+        margin-bottom: 1px;
+        width: 150px;
+        height: 70px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        background-color: transparent;   
+    }
+
+    .botoes .botao img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    main .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -22%;
+        max-width: 100vw;
+        padding: 20px;
+    }
+
+    main .conteudo .nome-personagem {
+        font-size: 35px;
+    }
+
+    main .conteudo .descricao {
+        max-width: 500px;
+        font-size: 18px;
+       
+    }
+
+    main .conteudo .logo {
+        margin-bottom: 1px;
+        width: 180px;
+        height: 80px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        background-color: transparent;   
+    }
+
+    .botoes .botao img {
+        max-width: 60px;
+    }
+}
+
